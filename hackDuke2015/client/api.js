@@ -1,5 +1,8 @@
 var getAllRacesPoverty2015 = "http://api.census.gov/data/timeseries/poverty/histpov2?get=PCTPOV&time=2013&RACE=1";
 
+var svg = d3.select("svg");
+
+
 $.ajax({                                                                                                                                                                                                        
   type: 'GET',                                                                                                                                                                                                 
   url: getAllRacesPoverty2015,                                                                                                                                              
