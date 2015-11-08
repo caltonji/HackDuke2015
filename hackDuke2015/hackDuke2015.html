@@ -11,15 +11,23 @@
 
 <body class="col-lg-12">
   <div id="branding" class="col-lg-offset-2 col-lg-8 text-center">
-    <h1>resonate</h1>
+    <!-- move logo down, put a little more space between img and top of page -->
+    <img src="https://scontent-iad3-1.xx.fbcdn.net/hphotos-xap1/v/t34.0-12/12211981_809597579186919_471695047_n.jpg?oh=983786833de05c51716707e67b11570f&oe=5641CCFE" style="width:225px;height:200px">
     <hr>
   </div>
-  <div id="chartDescription" class="col-lg-12"><h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum in illo modi vitae eaque perspiciatis et labore est voluptate voluptatibus quibusdam suscipit, asperiores nihil. Officia ex rem ratione adipisci quasi.</h3></div>
+  <div id="chartDescription" class="col-lg-12 text-center"><h3>Minimum wage is the lowest hourly salary which employers may pay their workers.</h3>
+    <h4>Currently, our federal minimum wage is $7.25 per hour. When adjusted for inflation, this is $3.00 less than our minimum wage in 1968!</h4>
+    <h4>What happens to Americans when we raise or lower the minimum wage?</h4>
+  </div>
   <div id="chart1" class="col-lg-12 text-center">
     {insert chart here}
   </div>
   <div id="chartUnderText" class="col-lg-12 text-center">
-  <h1>Info on the Json data</h1>
+  <h1>Info on the Json data. 
+  </h1>
+  <h4>In 2014, President Obama proposed raising the federal minimum and tying it to an inflation index. </h4>
+
+  <h3>Do you support giving America a raise?</h3>
   </div>
   <div id="buttonsToChangeChart" class="col-lg-4"> 
   <button class="btn btn-primary" value="Male">Male</button>
@@ -34,5 +42,23 @@
   <p>{{percent}} of {{category}} will be affected by this</p>
   <svg id="barChart"></svg>
 </template>
+
+<!-- please add some constraints to keep this in a "box" on left-->
+<div id="candidatebox" class="col-lg-12">
+<h4>Which presidential candidates for November 2015 share your opinion?</h4>
+<!-- should be replaced by different candidates depending on user input -->
+<h4><b>Bernie Sanders<b>, Democrat </h4>
+<h5>In late July, he introduced a bill to Congress that will raise the minimum wage to $15 over four years. </h5>
+<h5><i>"I think if you work 40 hours a week, you have a right not to live in poverty. The current federal minimum wage is a starvation wage. It's got to be raised to a living wage."</i></h5>
+
+</div>
+
+<!-- static text that reminds user of the importance of voting -->
+<!-- please add constraints to keep it on right -->
+<div id="votebox" class="col-lg-12">
+  <h5>If this issue resonates with you, please cast your vote this November.</h5>
+  <h5>58% of Americans did not vote in our last presidential election. If all of these 184,962,000 citizens voted in this election, we might see real change and a more representative democracy.
+  </h5>
+</div>
 
 
