@@ -16,7 +16,7 @@
   </div>
   <div id="chartDescription" class="col-lg-12"><h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum in illo modi vitae eaque perspiciatis et labore est voluptate voluptatibus quibusdam suscipit, asperiores nihil. Officia ex rem ratione adipisci quasi.</h3></div>
   <div id="chart1" class="col-lg-12 text-center">
-    {insert chart here}
+    <svg id="povertyChart"></svg>
   </div>
   <div id="chartUnderText" class="col-lg-12 text-center">
   <h1>Info on the Json data</h1>
@@ -28,6 +28,10 @@
   <div id="resultOfButtonPress" class="col-lg-12">
       {{> percent_affected_chart}}
   </div>
+
+  <script src="client/d3charts.js">
+</script>
+
 </body>
 
 <template name="percent_affected_chart">
