@@ -1,4 +1,8 @@
 /* CSS declarations go here */
+body{
+    margin:5px;
+}
+
 button {
     background: #ccc;
     cursor: pointer;
