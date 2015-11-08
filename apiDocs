@@ -1,0 +1,23 @@
+#API census example
+
+http://api.census.gov/data/timeseries/poverty/histpov2?get=PCTPOV&time=2015
+
+#Variables
+POP - all people total population
+POV - all people below the poverty level
+PCTPOV - percentage of people below the poverty level
+
+
+RACE
+1 - All Races
+2 - White Alone
+3 - White
+4 - White Alone, Not Hispanic
+5 - White, Not Hispanic
+6 - Black Alone or in Combination
+7 - Black Alone
+8 - Black
+9 - Asian Alone or in Combination
+10 - Asian Alone
+11 - Asian and Pacific Islander
+12 - Hispanic (of any race)

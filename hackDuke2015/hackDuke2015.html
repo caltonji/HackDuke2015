@@ -1,0 +1,21 @@
+<head>
+  <title>hackDuke2015</title>
+  <link rel="stylesheet" href="">
+  <script src="api.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+</head>
+
+<body>
+  <h1>Info on the Json data</h1>
+  <button value="Male">Male</button>
+  <button value="Female">Female</button>
+  {{> percent_affected_chart}}
+</body>
+
+<template name="percent_affected_chart">
+  <p>{{percent}} of {{category}} will be affected by this</p>
+  <svg id="barChart"></svg>
+</template>
+
+
